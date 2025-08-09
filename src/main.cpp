@@ -31,6 +31,7 @@ void setup() {
 }
 
 void loop() {
+    // Comment 09.08.2025
   unsigned long now = millis();
 
   if (!updating && (now - lastPollMs > pollIntervalMs)) {
